@@ -54,5 +54,11 @@ namespace BenchmarKing
         {
             return _configValues.Keys;
         }
+
+        public string this[string index] 
+        {
+            get { return _configValues[index]; }
+            set { _configValues[index] = value; }
+        }
     }
 }
