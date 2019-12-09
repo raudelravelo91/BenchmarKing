@@ -13,5 +13,7 @@ namespace BenchmarKing
         public int Avg { get; set; }
 
         public int OnePercentLow { get; set; }
+
+        public string Source { get; set; }
     }
 }
